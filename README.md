@@ -1,55 +1,60 @@
-# 🍽️ Zomato Exploratory Data Analysis (EDA)
+Exploratory Data Analysis Projects
 
-This project involves in-depth Exploratory Data Analysis (EDA) on the Zomato restaurant dataset to uncover insights about restaurant types, locations, cuisines, ratings, pricing, and customer preferences.
+This repository contains three end-to-end Exploratory Data Analysis (EDA) projects that explore datasets, uncover patterns, and visualize insights to support data-driven decisions.
 
----
+Projects Included
+1. Zomato EDA
 
-## 📊 Objective
+Dataset: Zomato restaurant data
 
-The main goal of this project is to analyze restaurant data from Zomato to:
-- Understand key trends in customer preferences
-- Identify high-performing locations and cuisines
-- Explore patterns in ratings, pricing, and service types
+Objective: Analyze restaurant trends, ratings, and locations to derive insights for food service businesses.
 
----
+Key Analyses:
 
-## 🗂️ Dataset
+Distribution of cuisines and ratings
 
-- **Source**: Kaggle Zomato Dataset  
-- **Size**: ~10,000 restaurant records  
-- **Features**: Restaurant name, location, rating, average cost, cuisines, online delivery, etc.
+Correlation between cost and ratings
 
----
+Popular locations and restaurant types
 
-## 📌 Key Insights
+Tools Used: Python, Pandas, NumPy, Matplotlib, Seaborn
 
-- 🔹 Which locations have the highest restaurant density  
-- 🔹 Cuisines with top ratings and popularity  
-- 🔹 Relationship between cost, rating, and delivery availability  
-- 🔹 Impact of location on customer ratings  
-- 🔹 Online delivery trends in different areas
+2. Black Friday EDA
 
----
+Dataset: Black Friday sales dataset
 
-## 🧰 Tools & Libraries
+Objective: Understand customer buying patterns and product sales trends during Black Friday.
 
-- **Python**  
-- **Pandas**  
-- **NumPy**  
-- **Matplotlib**  
-- **Seaborn**
+Key Analyses:
 
----
+Distribution of purchases by gender, age, and city category
 
-## 📈 EDA Highlights
+Product category-wise sales trends
 
-- Missing values handling and data cleaning
-- Feature engineering for analysis
-- Distribution plots for ratings, costs, and locations
-- Correlation matrix and heatmaps
-- Bar charts and pie charts for categorical features
-- Boxplots for cost vs rating analysis
-- Top 10 cuisines and restaurants by rating
+Correlation between purchase amount and user demographics
 
----
+Tools Used: Python, Pandas, NumPy, Matplotlib, Seaborn
 
+3. Flight Ticket Price EDA
+
+Dataset: Flight ticket prices dataset
+
+Objective: Analyze pricing trends and factors affecting flight ticket prices.
+
+Key Analyses:
+
+Distribution of ticket prices
+
+Price trends based on airlines, source, and destination
+
+Duration vs. price relationship
+
+Tools Used: Python, Pandas, NumPy, Matplotlib, Seaborn
+
+Features
+
+Comprehensive data cleaning and preprocessing
+
+Visualization of key trends and patterns
+
+Insight generation for business decisions
